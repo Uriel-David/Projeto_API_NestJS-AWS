@@ -7,7 +7,7 @@ import { ServerApiVersion } from 'mongodb';
   imports: [
     JogadoresModule,
     MongooseModule.forRoot(
-      'mongodb+srv://admin:rootTESTapi@cluster0.zvvh9.mongodb.net/smartranking?retryWrites=true&w=majority',
+      `mongodb+srv://admin:rootTESTapi@cluster0.zvvh9.mongodb.net/smartranking?retryWrites=true&w=majority`,
       { useNewUrlParser: true, useUnifiedTopology: true, serverApi: ServerApiVersion.v1 }),
   ],
   controllers: [],
